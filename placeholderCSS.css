@@ -52,7 +52,8 @@ nav {
     color: white;
 }
 .caps {
-    color:#d39b83 ;
+    /* color:#d39b83 ; */
+    color: black;
     margin-left: 10px;
 }
 h1 {
