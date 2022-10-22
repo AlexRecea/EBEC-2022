@@ -90,6 +90,7 @@ footer {
     height: 50%;
     display: flex;
     position: static;
+    width: 100vw;
     /* top: 0; */
     justify-content: center;
     box-sizing: content-box;
@@ -98,6 +99,7 @@ footer {
     height: 75%;
     margin: 1vh 2.5vh;
     -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 p {
