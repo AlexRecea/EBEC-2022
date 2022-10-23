@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    background-color: #343b4e;
 }
 
 nav {
