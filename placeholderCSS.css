@@ -50,6 +50,7 @@ nav {
     justify-content: flex-start;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 .caps {
     color:#d39b83 ;
@@ -86,6 +87,7 @@ footer {
     color: white;
     box-sizing: border-box;
     position: relative;
+    overflow: hidden;
 }
 .butoaneContact {
     height: 50%;
@@ -95,6 +97,7 @@ footer {
     /* top: 0; */
     justify-content: center;
     box-sizing: content-box;
+    overflow: hidden;
 }
 .pozik {
     height: 75%;
@@ -120,5 +123,6 @@ p {
     .mijloc {
         background-size: cover;
         /* transform: rotate(90); */
+        overflow: hidden;
     }
 }
