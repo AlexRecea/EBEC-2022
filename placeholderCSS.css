@@ -133,6 +133,13 @@ p {
         font-size: 1.4em;
     }
     body {
-        height: 120vmax;
+        height: 10vmax;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    nav {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
