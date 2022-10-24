@@ -125,6 +125,8 @@ p {
     }
     .pozik {
         margin: 1vh 2vh;
+        -webkit-filter: invert(1);
+        filter: invert(1);
     }
     .mijloc {
         background-size: cover;
