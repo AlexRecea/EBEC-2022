@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #343b4e;
 }
 
@@ -138,6 +138,6 @@ p {
         font-size: 1.4em;
     }
     body {
-        height: 140vh;
+        padding-bottom: 40vh;
     }
 }
