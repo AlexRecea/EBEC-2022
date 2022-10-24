@@ -1,3 +1,8 @@
+@font-face {
+    font-family: pixel;
+    src: url(SummerPixel22Regular-jE0W7.ttf);
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -6,6 +11,8 @@ body {
     justify-content: flex-start;
     /* overflow: hidden; */
     background-color: #343b4e;
+    font-family:pixel;
+    letter-spacing: 3px;
 }
 
 nav {
@@ -76,7 +83,7 @@ footer {
     margin-left: 10px;
 }
 h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     /* width: 100vw; */
     /* display: flex;
     justify-content: flex-start; */
@@ -133,13 +140,17 @@ p {
         /* transform: rotate(90); */
         overflow: hidden;
     }
+    h1 {
+        font-size: 3.3vh;
+    }
     h5 {
         margin-top: 5vh;
     }
     h4 {
         font-size: 1.4em;
     }
-    /* body {
-        padding-bottom: 40vh;
-    } */
+    .caps {
+        margin-left: 3px;
+    }
+    
 }
