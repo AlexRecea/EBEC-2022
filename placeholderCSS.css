@@ -87,7 +87,7 @@ footer {
     text-align: center;
     color: white;
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 .butoaneContact {
@@ -125,5 +125,11 @@ p {
         background-size: cover;
         /* transform: rotate(90); */
         overflow: hidden;
+    }
+    h5 {
+        margin-top: 5vh;
+    }
+    h4 {
+        font-size: 1.4em;
     }
 }
