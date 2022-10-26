@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: pixel;
     src: url(summerPixel22Regular-jE0W7.ttf);
-}
+} */
 
 body {
     margin: 0;
@@ -11,9 +11,9 @@ body {
     justify-content: flex-start;
     /* overflow: hidden; */
     background-color: #343b4e;
-    font-family:pixel;
+    font-family: 'Summer Pixel 22', sans-serif;
     letter-spacing: 3px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 nav {
