@@ -92,6 +92,10 @@ footer {
     position: sticky;
     bottom: 0;
     border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .caps {
     color:#d39b83 ;
@@ -112,7 +116,7 @@ h4{
     color: white;
     margin-top: 10px;
     margin-bottom: 0;
-    font-size: 4.5vh;
+    font-size: 4vh;
 }
 h5 {
     font-size: 3.5vh;
@@ -168,10 +172,14 @@ p {
         font-size: 2.5vh;
     }
     h4 {
-        font-size: 3.5vh;
+        font-size: 3vh;
+        letter-spacing: 2px;
     }
     .caps {
         margin-left: 3px;
     }
-    
+    .gifi {
+        height: 35vh;
+        width: 35vh;
+    }
 }
