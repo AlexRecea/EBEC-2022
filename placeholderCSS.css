@@ -54,7 +54,7 @@ nav {
     background: transparent;
 }
 .mijloc {
-    height: 80vh;
+    height: 85vh;
     display: flex;
     background-image: url("Background_v3.jpg");
     background-repeat: no-repeat;
@@ -72,19 +72,7 @@ width: 25vw;
 height: 100%;
 background-color: white;
 } */
-.picior {
-    height: 10vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    box-sizing: border-box;
-    /* position: relative; */
-    overflow: hidden;
-    align-self: flex-end;
-}
+
 footer {
     height: 15vh;
     background-color: white;
@@ -115,13 +103,18 @@ h3 {
 h4{
     color: white;
     margin-top: 10px;
+    margin-bottom: 1vh;
     margin-bottom: 0;
     font-size: 4vh;
 }
 h5 {
     font-size: 3.5vh;
     margin-top: 2vh;
+    margin-bottom: 1vh;
     color: #ffd9ae;
+    width: 100%;
+    text-align: center;
+    color: #343b4e;
 }
 .butoaneContact {
     height: 50%;
@@ -144,6 +137,55 @@ p {
     size: 1vh;
     margin-top: 1vh;
     margin-bottom: 0;
+}
+.companii {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+/* .cmp {
+    height: 25%;
+}  */
+
+#emerson {
+    height: 15vh;
+}
+#riverbed {
+    height: 7vh;
+}
+#accenture {
+    height: 8.5vh;
+}
+#adi {
+    height: 23vh;
+    margin-top: -3vh;
+}
+#partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    align-items: center;
+}
+#partnesrs:nth-child(2) {
+    margin-top: 1vh;
+}
+.picior {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    /* position: relative; */
+    overflow: hidden;
+    align-self: flex-end;
 }
 @media (max-width: 500px) {
     .poza {
