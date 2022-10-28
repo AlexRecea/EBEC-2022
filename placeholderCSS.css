@@ -3,7 +3,7 @@
     src: url(summerPixel22Regular-jE0W7.ttf);
 } */
 
-                
+/* @import url("http://fonts.cdnfonts.com/css/depixel?styles=131877");       */
 
 body {
     margin: 0;
@@ -13,9 +13,10 @@ body {
     justify-content: flex-start;
     /* overflow: hidden; */
     background-color: #343b4e;
-    font-family: 'Summer Pixel Wide 22', sans-serif;
+    font-family: DePixel;
     letter-spacing: 3px;
     /* font-weight: bold; */
+    
 }
 
 nav {
