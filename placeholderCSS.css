@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -67,7 +67,12 @@ nav {
     color: white;
     overflow: hidden;
 }
-footer {
+/* .stanga, .dreapta {
+width: 25vw;
+height: 100%;
+background-color: white;
+} */
+.picior {
     height: 10vh;
     background-color: black;
     display: flex;
@@ -80,7 +85,14 @@ footer {
     overflow: hidden;
     align-self: flex-end;
 }
-
+footer {
+    height: 15vh;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
+    border: 2px solid black;
+}
 .caps {
     color:#d39b83 ;
     /* color: black; */
