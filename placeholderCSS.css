@@ -193,6 +193,8 @@ p {
         background-size: cover;
         /* transform: rotate(90); */
         overflow: hidden;
+        height: auto;
+        padding-bottom: 3vh;
     }
     h1 {
         font-size: 3.3vh;
@@ -201,7 +203,7 @@ p {
         font-size: 2.5vh;
     }
     h5 {
-        margin-top: 5vh;
+        margin-top: 3vh;
         font-size: 2.5vh;
     }
     h4 {
@@ -215,11 +217,15 @@ p {
         height: 35vh;
         width: 35vh;
     }
-    #accenture {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
     .companii {
         height: auto;
+    }
+    #accenture {
+        padding-top: 3vh;
+        padding-bottom: 5vh;
+    }
+    #adi {
+        margin-top: -5vh;
+        margin-bottom: -4vh;
     }
 }
