@@ -222,10 +222,16 @@ p {
     }
     #accenture {
         padding-top: 3vh;
-        padding-bottom: 5vh;
+        padding-bottom: 6vh;
     }
     #adi {
         margin-top: -5vh;
         margin-bottom: -4vh;
+    }
+    #riverbed {
+        margin-bottom: 2vh;
+    }
+    #best {
+        margin-left: -10vh;
     }
 }
