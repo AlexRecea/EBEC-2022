@@ -1,10 +1,3 @@
-/* @font-face {
-    font-family: pixel;
-    src: url(summerPixel22Regular-jE0W7.ttf);
-} */
-
-/* @import url("http://fonts.cdnfonts.com/css/depixel?styles=131877");       */
-
 body {
     margin: 0;
     height: auto;
@@ -57,7 +50,7 @@ nav {
     height: 85vh;
     display: flex;
     background-image: url("bk_v3.jpg");
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
     /* object-fit: fill; */
     background-size: cover;
     flex-direction: column;
@@ -129,8 +122,6 @@ h5 {
 .pozik {
     height: 75%;
     margin: 1vh 2.5vh;
-    /* -webkit-filter: invert(1); */
-    /* filter: invert(1); */
 }
 
 p {
