@@ -215,4 +215,8 @@ p {
         height: 35vh;
         width: 35vh;
     }
+    #accenture {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
 }
