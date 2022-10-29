@@ -1,8 +1,21 @@
+/* @font-face {
+    font-family: pixel;
+    src: url(summerPixel22Regular-jE0W7.ttf);
+} */
+
+/* @import url("http://fonts.cdnfonts.com/css/depixel?styles=131877");       */
+
 body {
     margin: 0;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    /* overflow: hidden; */
+    background-color: #343b4e;
+    font-family: DePixel;
+    letter-spacing: 3px;
+    /* font-weight: bold; */
     
 }
 
@@ -13,6 +26,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* align-self: flex-start; */
     /* padding-top: 1vh; */
     /* opacity: 10; */
     /* padding-top: 1vh; */
@@ -40,7 +54,7 @@ nav {
     background: transparent;
 }
 .mijloc {
-    height: 80vh;
+    height: 85vh;
     display: flex;
     background-image: url("Background_v3.jpg");
     background-repeat: no-repeat;
@@ -48,34 +62,119 @@ nav {
     background-size: cover;
     flex-direction: column;
     justify-content: flex-start;
+    /* align-self:stretch; */
     text-align: center;
     color: white;
+    overflow: hidden;
+}
+/* .stanga, .dreapta {
+width: 25vw;
+height: 100%;
+background-color: white;
+} */
+
+footer {
+    height: 15vh;
+    background-color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    bottom: 0;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .caps {
     color:#d39b83 ;
+    /* color: black; */
     margin-left: 10px;
 }
 h1 {
-    font-size: 1.5em;
-    width: 100vw;
+    font-size: 5vh;
+    /* width: 100vw; */
     /* display: flex;
     justify-content: flex-start; */
 }
 h3 {
     margin-top: 0;
+    font-size: 2.5vh;
 }
 h4{
     color: white;
     margin-top: 10px;
+    margin-bottom: 1vh;
     margin-bottom: 0;
-    font-size: 1.7em;
+    font-size: 4vh;
 }
 h5 {
-    font-size: 1.3em;
-    margin-top: 8vh;
+    font-size: 3.5vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
     color: #ffd9ae;
+    width: 100%;
+    text-align: center;
+    color: #343b4e;
 }
-footer {
+.butoaneContact {
+    height: 50%;
+    display: flex;
+    position: static;
+    width: 100vw;
+    /* top: 0; */
+    justify-content: center;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.pozik {
+    height: 75%;
+    margin: 1vh 2.5vh;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+p {
+    size: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 0;
+}
+.companii {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+/* .cmp {
+    height: 25%;
+}  */
+
+#emerson {
+    height: 15vh;
+}
+#riverbed {
+    height: 7vh;
+}
+#accenture {
+    height: 8.5vh;
+}
+#adi {
+    height: 23vh;
+    margin-top: -3vh;
+}
+#partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    align-items: center;
+}
+#partnesrs:nth-child(2) {
+    margin-top: 1vh;
+}
+.picior {
     height: 10vh;
     background-color: black;
     display: flex;
@@ -84,26 +183,9 @@ footer {
     text-align: center;
     color: white;
     box-sizing: border-box;
-    position: relative;
-}
-.butoaneContact {
-    height: 50%;
-    display: flex;
-    position: static;
-    /* top: 0; */
-    justify-content: center;
-    box-sizing: content-box;
-}
-.pozik {
-    height: 75%;
-    margin: 1vh 2.5vh;
-    -webkit-filter: invert(1);
-}
-
-p {
-    size: 1vh;
-    margin-top: 1vh;
-    margin-bottom: 0;
+    /* position: relative; */
+    overflow: hidden;
+    align-self: flex-end;
 }
 @media (max-width: 500px) {
     .poza {
@@ -112,10 +194,34 @@ p {
         margin-bottom: 0;
     }
     .pozik {
-        margin: 2vw 4vw;
+        margin: 1vh 2vh;
+        -webkit-filter: invert(1);
+        filter: invert(1);
     }
     .mijloc {
         background-size: cover;
         /* transform: rotate(90); */
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 3.3vh;
+    }
+    h3 {
+        font-size: 2.5vh;
+    }
+    h5 {
+        margin-top: 5vh;
+        font-size: 2.5vh;
+    }
+    h4 {
+        font-size: 3vh;
+        letter-spacing: 2px;
+    }
+    .caps {
+        margin-left: 3px;
+    }
+    .gifi {
+        height: 35vh;
+        width: 35vh;
     }
 }
