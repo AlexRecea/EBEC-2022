@@ -56,7 +56,7 @@ nav {
 .mijloc {
     height: 85vh;
     display: flex;
-    background-image: url("Background_v3.jpg");
+    background-image: url("background_v3.jpg");
     background-repeat: no-repeat;
     /* object-fit: fill; */
     background-size: cover;
