@@ -129,8 +129,8 @@ h5 {
 .pozik {
     height: 75%;
     margin: 1vh 2.5vh;
-    -webkit-filter: invert(1);
-    filter: invert(1);
+    /* -webkit-filter: invert(1); */
+    /* filter: invert(1); */
 }
 
 p {
