@@ -182,7 +182,7 @@ p {
 }
 
 button {
-    width: 20vw;
+    width: 30vh;
     height: 10vh;
     align-self: center;
     margin-top: 2vh;
@@ -254,6 +254,6 @@ a :hover {
     }
     button {
         width: 60vw;
-        height : 30%;
+        height : 10vh;
     }
 }
