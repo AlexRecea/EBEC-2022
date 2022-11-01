@@ -190,9 +190,10 @@ button {
     font-size: 3.5vh;
     font-weight: bold;
     background-color: rgb(206, 134, 0);
+    margin-bottom: 2vh;
 }
 a :hover {
-    background-color: rgb(121, 82, 8);
+    background-color: rgb(126, 100, 50);
 }
 @media (max-width: 500px) {
     .poza {
