@@ -47,7 +47,8 @@ nav {
     background: transparent;
 }
 .mijloc {
-    height: 85vh;
+    /* height: 85vh; */
+    height: auto;
     display: flex;
     background-image: url("bk_v3.jpg");
     background-repeat: no-repeat;
@@ -178,6 +179,21 @@ p {
     overflow: hidden;
     align-self: flex-end;
 }
+
+button {
+    width: 20vw;
+    height: 10vh;
+    align-self: center;
+    margin-top: 2vh;
+    border-radius: 15%;
+    font-family: DePixel;
+    font-size: 3.5vh;
+    font-weight: bold;
+    background-color: rgb(206, 134, 0);
+}
+a :hover {
+    background-color: rgb(121, 82, 8);
+}
 @media (max-width: 500px) {
     .poza {
         height: 80%;
@@ -233,5 +249,9 @@ p {
     }
     #best {
         margin-left: -2vw;
+    }
+    button {
+        width: 60vw;
+        height : 30%;
     }
 }
